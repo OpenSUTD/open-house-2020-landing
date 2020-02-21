@@ -37,6 +37,18 @@ ol, ul {
 	list-style: none;
 }
 
+article h2 {
+	text-shadow: 2px 2px 5px rgba(1, 1, 1, 0.5);
+}
+
+.content {
+	text-shadow: 2px 2px 5px rgba(1, 1, 1, 0.5);
+}
+
+.content p {
+	font-weight: bold;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -2621,7 +2633,7 @@ input, select, textarea {
 					opacity: 0.8;
 				}
 
-				.tiles article > .image:after {
+				/*.tiles article > .image:after {
 					pointer-events: none;
 					-moz-transition: opacity 0.5s ease;
 					-webkit-transition: opacity 0.5s ease;
@@ -2640,7 +2652,7 @@ input, select, textarea {
 					background-size: 100% 100%;
 					opacity: 0.25;
 					z-index: 2;
-				}
+				}*/
 
 			.tiles article > a {
 				display: -moz-flex;
